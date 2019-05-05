@@ -1,0 +1,36 @@
+[
+    { "caption": "-", "id": "file" },
+    {
+        "caption": "HBH-KeySearch",
+        "children": [
+            {
+                "caption":"bing",
+                "command":"key_search",
+                "args":{
+                    "driver":"bing"
+                }
+            },
+            {
+                "caption":"baidu",
+                "command":"key_search",
+                "args":{
+                    "driver":"baidu"
+                }
+            },
+            {
+                "caption":"360",
+                "command":"key_search",
+                "args":{
+                    "driver":"360"
+                }
+            },
+            {
+                "caption":"google",
+                "command":"key_search",
+                "args":{
+                    "driver":"google"
+                }
+            }
+        ]
+    }
+]

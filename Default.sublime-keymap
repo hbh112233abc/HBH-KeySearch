@@ -1,0 +1,11 @@
+[
+    {
+        "keys":[
+            "ctrl+alt+k"
+        ],
+        "args":{
+
+        },
+        "command":"key_search"
+    }
+]

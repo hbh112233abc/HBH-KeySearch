@@ -1,0 +1,83 @@
+[
+    {
+        "mnemonic": "n",
+        "caption": "Preferences",
+        "id": "preferences",
+        "children": [
+            {
+                "mnemonic": "P",
+                "caption": "Package Settings",
+                "id": "package-settings",
+                "children": [
+                    {
+                        "caption": "HBH-KeySearch",
+                        "children": [
+                            {
+                                "caption": "Settings – Default",
+                                "args": {
+                                    "file": "${packages}/HBH-KeySearch/HBH-KeySearch.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "args": {
+                                    "file": "${packages}/User/HBH-KeySearch.sublime-settings"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "caption": "Key Bindings – Default",
+                                "args": {
+                                    "file": "${packages}/HBH-KeySearch/Default.sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "Key Bindings – User",
+                                "args": {
+                                    "file": "${packages}/User/Default.sublime-keymap"
+                                },
+                                "command": "open_file"
+                            },
+                            {
+                                "caption": "-"
+                            },
+                            {
+                                "caption":"bing",
+                                "command":"key_search",
+                                "args":{
+                                    "driver":"bing"
+                                }
+                            },
+                            {
+                                "caption":"baidu",
+                                "command":"key_search",
+                                "args":{
+                                    "driver":"baidu"
+                                }
+                            },
+                            {
+                                "caption":"360",
+                                "command":"key_search",
+                                "args":{
+                                    "driver":"360"
+                                }
+                            },
+                            {
+                                "caption":"google",
+                                "command":"key_search",
+                                "args":{
+                                    "driver":"google"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
